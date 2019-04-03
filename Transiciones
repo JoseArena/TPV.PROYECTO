@@ -1,0 +1,7 @@
+using Transitio;
+
+
+          
+            Transition t = new Transition(new TransitionType_EaseInEaseOut(1000));
+            t.add(pictureBox1, "Left", 100)          
+            t.run();
